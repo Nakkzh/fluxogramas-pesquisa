@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 04:27:50 "/>
+        <attribute name="created" value="QWx1bm87IERTTjkxNC1NSUNSTzI0LTsgMjAyNS0wMi0yNTsgMDQ6MDY6NTcgOyAyNjkx"/>
+        <attribute name="edited" value="QWx1bm87IERTTjkxNC1NSUNSTzI0LTsgMjAyNS0wMi0yNTsgMDQ6Mjc6NTAgOyAyNjg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N&#250;mero1" type="Integer" array="False" size=""/>
+            <output expression="&quot;escolha um n&#250;mero?&quot;"/>
+            <input variable="N&#250;mero1"/>
+            <declare name="N&#250;mero2" type="Integer" array="False" size=""/>
+            <output expression="&quot;outro n&#250;mero?&quot;"/>
+            <input variable="N&#250;mero2"/>
+            <declare name="Resultado" type="Integer" array="False" size=""/>
+            <assign variable="Resultado" expression="N&#250;mero1-N&#250;mero2"/>
+            <output expression="&quot;O resultado da subtra&#231;&#227;o &#233; &quot; &amp; Resultado"/>
+        </body>
+    </function>
+</flowgorithm>
