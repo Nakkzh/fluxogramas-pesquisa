@@ -49,6 +49,32 @@ Na área de desenvolvimento de sistemas os fluxograma ajudam a visualizar e plan
 
 ## Exemplos
 
+#### Exemplo 1
+```M
+Fluxograma para verificar se um número é par ou ímpar:
+Início (Elipse)
+Entrada de número (Retângulo)
+Calcular resto (resto = numero mod 2) (Retângulo)
+Decisão (Losango) - resto == 0?
+Sim: Imprimir "Número Par" (Retângulo)
+Não: Imprimir "Número Ímpar" (Retângulo)
+Fim (Elipse)
+```
+#### Exemplo 2
+```M
+Fluxograma para calcular a soma de 1 até N:
+Início (Elipse)
+Entrada de N (Retângulo)
+Iniciar soma com 0 (Retângulo)
+Contador = 1 (Retângulo)
+Decisão (Losango) - Contador ≤ N?
+Sim: Adicionar contador à soma (Retângulo)
+Não: Ir para o fim
+Incrementar contador (Retângulo)
+Voltar para a decisão
+Exibir soma (Retângulo)
+Fim (Elipse)
+```
 ---
 
 ## Ferramentas
