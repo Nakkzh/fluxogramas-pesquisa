@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 03:09:08 "/>
+        <attribute name="created" value="QWx1bm87IERTTjkxNC1NSUNSTzI0LTsgMjAyNS0wMi0yNTsgMDE6NTY6NDIgOyAyNjg3"/>
+        <attribute name="edited" value="QWx1bm87IERTTjkxNC1NSUNSTzI0LTsgMjAyNS0wMi0yNTsgMDM6MDk6MDggOyAyNjg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N&#250;mero" type="Integer" array="False" size=""/>
+            <input variable="N&#250;mero"/>
+            <declare name="resto" type="Real" array="False" size=""/>
+            <assign variable="resto" expression="N&#250;mero%2"/>
+            <if expression="resto == 0">
+                <then>
+                    <output expression="&quot;N&#250;mero Par&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#250;mero &#205;mpar&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
