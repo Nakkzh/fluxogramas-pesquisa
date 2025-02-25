@@ -1,4 +1,4 @@
-# Fluxograma!!
+# Fluxograma!
 
 ## O que é?
 
@@ -88,3 +88,9 @@ Fim (Elipse)
 - **Gliffy**
 
 - **Flowgorithm**
+
+---
+
+## Conclusão
+
+Os fluxogramas são essenciais no desenvolvimento de sistemas, pois ajudam a visualizar a lógica de um algoritmo de maneira clara e estruturada. Eles facilitam o planejamento, permitem identificar erros de lógica antecipadamente e tornam o processo de desenvolvimento mais eficiente. Aparentemente ele será importante para as aulas futuras.
